@@ -1,3 +1,32 @@
+.body-contact {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "nav"
+    "main"
+    "footer";
+}
+
+header {
+  grid-area: nav;
+}
+
+.main-contact {
+  grid-area: main;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "bread"
+    "content1"
+    "content2";
+}
+
+.breadcrumbs {
+  grid-area: bread;
+}
+
 .contact-content1 {
   grid-area: content1;
   display: flex;
@@ -10,7 +39,11 @@
   margin: 20px 40px 40px 0px;
 }
 
-.contact-us-section {
+.contact-content2 {
   grid-area: content2;
   margin: 0px 20px;
+}
+
+footer {
+  grid-area: footer;
 }

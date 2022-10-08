@@ -108,7 +108,7 @@
     margin: 0px 40px;
   }
 
-  .contact-us-section {
+  .contact-content2 {
     margin: 0px 40px;
   }
 
@@ -156,12 +156,28 @@
   /* Jacket */
 
   /* Contact */
+  .body-contact {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto auto;
+    grid-template-areas:
+      "nav nav nav nav"
+      "main main main main"
+      "footer footer footer footer";
+  }
+
+  .main-contact {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto auto;
+    grid-template-areas:
+      "bread bread bread bread"
+      "content1 content1 content2 content2";
+  }
 
   .contact-content1 {
     margin: 0px 30px 60px 60px;
   }
 
-  .contact-us-section {
+  .contact-content2 {
     margin: 0px 60px 60px 30px;
   }
 
