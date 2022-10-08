@@ -10,7 +10,9 @@ if (favourites.length === 0) {
 
 favourites.forEach((favourite) => {
   productContainer.innerHTML += `<div class="product">
-                                    <h4>${favourite.name}</h4>
+                                 <img src="${favourite.image}"></img>
+                                    <h2>${favourite.name}</h2>
+                                    <h3>${favourite.price}</h3>
                                     <i class="fa fa-heart"</i>
                                 </div>`;
 });

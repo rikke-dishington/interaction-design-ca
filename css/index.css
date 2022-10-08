@@ -1,0 +1,33 @@
+.home-front-image {
+  background: url("/images/hiking.jpeg") center no-repeat;
+  background-size: cover;
+  height: 30vh;
+}
+
+.home-about-us {
+  background: url("/images/kayaking.jpeg") center no-repeat;
+  background-size: cover;
+  height: 30vh;
+}
+
+.home-about-us-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  text-align: center;
+  top: 20%;
+}
+
+.home-about-us-item h2 {
+  font-size: 2em;
+  color: #f2f2f2;
+  text-shadow: 1px 1px 5px #000000;
+  margin-bottom: 20px;
+}
+
+.contact-us-section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}

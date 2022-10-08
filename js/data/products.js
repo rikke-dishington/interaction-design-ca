@@ -1,50 +1,30 @@
 export default [
   {
     id: 1,
-    name: "Product 1",
+    name: "Rainy Blue",
+    price: "2000",
+    description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
+    image: "/images/product_blue.png",
   },
   {
     id: 2,
-    name: "Product 2",
+    name: "Rainy Green",
+    price: "2000",
+    description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
+    image: "/images/product_green.png",
   },
   {
     id: 3,
-    name: "Product 3",
+    name: "Sunny White",
+    price: "1750",
+    description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
+    image: "/images/product_white.png",
   },
   {
     id: 4,
-    name: "Product 4",
-  },
-  {
-    id: 5,
-    name: "Product 5",
-  },
-  {
-    id: 6,
-    name: "Product 6",
-  },
-  {
-    id: 7,
-    name: "Product 7",
-  },
-  {
-    id: 8,
-    name: "Product 8",
-  },
-  {
-    id: 9,
-    name: "Product 9",
-  },
-  {
-    id: 10,
-    name: "Product 10",
-  },
-  {
-    id: 11,
-    name: "Product 11",
-  },
-  {
-    id: 12,
-    name: "Product 12",
+    name: "Cloudy Grey",
+    price: "1500",
+    description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
+    image: "/images/product_grey.png",
   },
 ];

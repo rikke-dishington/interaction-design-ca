@@ -3,23 +3,138 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>localStorage</title>
+    <meta
+      name="description"
+      content="Get rain jackets for women and men from Rainy Days"
+    />
+    <title>Rainy Days | Home</title>
     <link
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
       rel="stylesheet"
     />
     <link href="css/style.css" rel="stylesheet" />
-    <link rel="icon" href="data:;base64,=" />
+    <link href="css/index.css" rel="stylesheet" />
+    <link href="css/media.css" rel="stylesheet" />
   </head>
   <body>
-    <div class="container">
-      <div class="menu">
-        <a href="index.html" class="active">Home</a> |
-        <a href="favourites.html">Favourites</a>
-      </div>
-      <h1>Products</h1>
-      <div class="product-container"></div>
-    </div>
+    <header>
+      <a href="index.html"
+        ><img
+          src="images/rainy_days_logo.png"
+          alt="Rainy Days Logo"
+          class="logo"
+      /></a>
+      <label for="hamburger-menu"><i class="fa fa-bars"></i></label>
+      <input type="checkbox" id="hamburger-menu" />
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="index.html">Women</a></li>
+          <li><a href="index.html">Men</a></li>
+          <li><a href="index.html">About</a></li>
+          <li><a href="index.html">Contact</a></li>
+          <li>
+            <a href="favourites.html"><i class="fa fa-shopping-bag"></i></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="home-front-image"></section>
+      <section class="jacket-list-section">
+        <h2>New Arrivals</h2>
+        <div class="product-container"></div>
+      </section>
+      <section class="home-about-us">
+        <div class="home-about-us-item">
+          <h2>Pushing The Comfort Zone</h2>
+          <a href="about.html" class="cta">About Us</a>
+        </div>
+      </section>
+      <section class="contact-us-section">
+        <div>
+          <h2>Contact us</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+            condimentum justo tincidunt, fermentum nisl non, varius nisi.
+            Integer vulputate lectus ut elit bibendum finibus. Sed laoreet
+            aliquet lorem dapibus eleifend. Lorem ipsum dolor sit amet,
+            consectetur adipiscing elit. Nunc accumsan tempor arcu, in iaculis
+            enim lacinia nec. Etiam efficitur finibus nulla, ac placerat nisl
+            aliquet eget.
+          </p>
+        </div>
+        <div>
+          <form id="contactForm">
+            <div>
+              <label>
+                Full name (required)
+                <input type="text" name="fullName" id="fullName" />
+              </label>
+              <div class="form-error" id="fullNameError">
+                Please enter your full name
+              </div>
+            </div>
+            <div>
+              <label>
+                Email address (required)
+                <input type="email" email="email" id="email" />
+              </label>
+              <div class="form-error" id="emailError">
+                Please enter a valid email address
+              </div>
+            </div>
+            <div>
+              <label>
+                Message (required)
+                <textarea type="text" name="message" id="message"></textarea>
+              </label>
+              <div class="form-error" id="messageError">
+                Your message must be at least 10 characters
+              </div>
+            </div>
+            <button class="cta">Submit</button>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <section class="footer-content1">
+        <div>
+          <h2>Shop</h2>
+          <a href="women.html">Women</a>
+          <a href="men.html">Men</a>
+        </div>
+        <div>
+          <h2>About</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+            condimentum justo tincidunt, fermentum nisl non, varius nisi.
+            Integer vulputate lectus ut elit bibendum finibus. Sed laoreet
+            aliquet lorem dapibus eleifend. Lorem ipsum dolor sit amet,
+            consectetur adipiscing elit. Nunc accumsan tempor arcu, in iaculis
+            enim lacinia nec. Etiam efficitur finibus nulla, ac placerat nisl
+            aliquet eget.
+          </p>
+        </div>
+        <div>
+          <h2>Follow us</h2>
+          <a href="#"><i class="fa fa-facebook-square fa-10x"></i>Facebook</a>
+          <a href="#"><i class="fa fa-instagram fa-10x"></i>Instagram</a>
+          <a href="#"><i class="fa fa-snapchat-square fa-10x"></i>Snapchat</a>
+        </div>
+        <div>
+          <h2>Contact us</h2>
+          <a href="#">E-mail: ola.nordmann@mail.com</a>
+          <a href="#">Phone: +47 123 45 678</a>
+          <a href="#">Address: Street name 221B Oslo, Norway</a>
+        </div>
+      </section>
+      <section class="footer-content2">
+        <p>&copy 2021 Rainy Days All Rights Reserved</p>
+      </section>
+    </footer>
+    <script src="js/contactform.js" type="module"></script>
     <script src="js/index.js" type="module"></script>
   </body>
 </html>

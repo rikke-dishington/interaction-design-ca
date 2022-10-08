@@ -24,8 +24,10 @@ products.forEach((product) => {
   }
 
   productContainer.innerHTML += `<div class="product">
-                                    <h4>${product.name}</h4>
-                                    <i class="${cssClass} fa-heart" data-id="${product.id}" data-name="${product.name}"></i>
+                                    <img src="${product.image}"></img>
+                                    <h2>${product.name}</h2>
+                                    <h3>${product.price}</h3>
+                                    <i class="${cssClass} fa-heart" data-image="${product.image}" data-id="${product.id}" data-name="${product.name}" data-price="${product.price}"></i>
                                     </div>`;
 });
 
@@ -41,6 +43,8 @@ function handleClick() {
 
   const id = this.dataset.id;
   const name = this.dataset.name;
+  const price = this.dataset.price;
+  const image = this.dataset.image;
 
   const currentFavs = getExistingFavs();
 
@@ -49,7 +53,7 @@ function handleClick() {
   });
 
   if (productExists === undefined) {
-    const product = { id: id, name: name };
+    const product = { id: id, name: name, price: price, image: image };
     currentFavs.push(product);
     saveFaves(currentFavs);
   } else {
