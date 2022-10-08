@@ -1,5 +1,69 @@
+.body {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "nav"
+    "main"
+    "footer";
+}
+
+header {
+  grid-area: nav;
+}
+
+.main {
+  grid-area: main;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "bread"
+    "content1"
+    "content2";
+}
+
+.breadcrumbs {
+  grid-area: bread;
+}
+
 .about-us-image {
-  background: url("/images/about.jpeg") center no-repeat;
+  grid-area: content1;
+  background: url("../images/about.jpeg") center no-repeat;
   background-size: cover;
+  margin: 20px;
   height: 30vh;
+}
+
+.about-content2 {
+  display: grid;
+  grid-area: content2;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "item1"
+    "item2"
+    "item3";
+  gap: 2em;
+  margin: 20px;
+}
+
+.about-content2-item1 {
+  grid-area: item1;
+}
+
+.about-content2-item1 h1 {
+  font-style: italic;
+}
+
+.about-content2-item2 {
+  grid-area: item2;
+}
+
+.about-content2-item3 {
+  grid-area: item3;
+}
+
+footer {
+  grid-area: footer;
 }

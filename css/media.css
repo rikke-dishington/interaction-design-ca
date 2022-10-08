@@ -4,7 +4,6 @@
   }
 
   /* Fonts */
-
   h1 {
     font-size: 2.5em;
     margin: 0px;
@@ -51,18 +50,66 @@
     transition: all 0.3s ease;
   }
 
-  .checkout-icon {
-    font-size: 1.5em;
-  }
-
   /* Header */
   header label {
     margin-right: 40px;
   }
 
-  .logo {
-    margin-left: 40px;
-    margin-right: 40px;
+  /* Breadcrumbs */
+  .breadcrumbs {
+    margin: 40px 0px 0px 40px;
+  }
+
+  /* Images */
+  .home-front-image,
+  .about-us-image,
+  .women-front-image,
+  .men-front-image {
+    height: 30vh;
+    position: relative;
+  }
+
+  /* Jackets list */
+  .jackets-list-content {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  /* Home Page */
+  .home-about-us-item {
+    top: 30%;
+  }
+
+  .home-about-us-item h2 {
+    font-size: 3em;
+  }
+
+  .contact-us-section {
+    flex-direction: row;
+  }
+
+  .contact-us-section h2 {
+    font-size: 3em;
+  }
+
+  /* Women & Men Page*/
+  /* Jacket */
+
+  /* About Page */
+  .about-us-image {
+    margin: 40px;
+  }
+
+  .about-content2 {
+    margin: 40px;
+  }
+
+  /* Contact Page */
+  .contact-content1 {
+    margin: 0px 40px;
+  }
+
+  .contact-us-section {
+    margin: 0px 40px;
   }
 
   /* Footer */
@@ -84,6 +131,38 @@
   .logo {
     margin-left: 60px;
     margin-right: 60px;
+  }
+
+  /* Breadcrumbs */
+  .breadcrumbs {
+    margin: 60px 0px 0px 60px;
+  }
+
+  /* Images */
+  .home-front-image,
+  .about-us-image,
+  .women-front-image,
+  .men-front-image {
+    height: 50vh;
+    position: relative;
+  }
+
+  /* Home Page */
+  .home-about-us-item h2 {
+    font-size: 4em;
+  }
+
+  /* Women & Men Page*/
+  /* Jacket */
+
+  /* Contact */
+
+  .contact-content1 {
+    margin: 0px 30px 60px 60px;
+  }
+
+  .contact-us-section {
+    margin: 0px 60px 60px 30px;
   }
 
   /* Footer */
@@ -117,5 +196,40 @@
 
   header label {
     display: none;
+  }
+
+  /* Jacket Page */
+}
+
+@media (min-width: 1200px) {
+  /* About Page */
+  .body-about {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto auto;
+    grid-template-areas:
+      "nav nav nav nav"
+      "main main main main"
+      "footer footer footer footer";
+  }
+
+  .main-about {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto auto;
+    grid-template-areas:
+      "bread bread bread bread"
+      "content1 content1 content2 content2";
+  }
+  .large-image-about {
+    margin: 0px 30px 60px 60px;
+  }
+
+  .about-content2 {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto auto;
+    grid-template-areas:
+      "item1 item1 item1 item1"
+      "item2 item2 item3 item3";
+    margin: 0px 60px 60px 30px;
   }
 }
