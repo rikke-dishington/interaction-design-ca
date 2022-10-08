@@ -97,6 +97,21 @@ header label {
   display: block;
 }
 
+/* Breadcrumbs */
+.breadcrumbs {
+  margin: 20px 0px 0px 20px;
+}
+
+.breadcrumbs li {
+  display: inline;
+}
+
+.breadcrumbs li:not(:last-of-type)::after {
+  content: ">";
+  margin: 0px 5px;
+  color: var(--dark-blue);
+}
+
 /* Andre ting */
 
 .jacket-list-section {

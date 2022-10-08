@@ -1,0 +1,5 @@
+.about-us-image {
+  background: url("/images/about.jpeg") center no-repeat;
+  background-size: cover;
+  height: 30vh;
+}
