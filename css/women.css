@@ -1,0 +1,11 @@
+.women-front-image {
+  background: url("/images/women.jpeg") center no-repeat;
+  background-size: cover;
+  height: 30vh;
+}
+
+.men-front-image {
+  background: url("/images/men.jpeg") center no-repeat;
+  background-size: cover;
+  height: 30vh;
+}
