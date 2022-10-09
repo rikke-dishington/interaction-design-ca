@@ -83,7 +83,6 @@
   }
 
   /* Women & Men Page*/
-  /* Jacket */
 
   /* About Page */
   .about-us-image {
@@ -145,7 +144,11 @@
   }
 
   /* Women & Men Page*/
+
   /* Jacket */
+  .product-content {
+    flex-direction: row;
+  }
 
   /* About Page */
   .about-us-image {
