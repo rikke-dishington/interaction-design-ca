@@ -24,21 +24,11 @@
   }
 
   /* Links */
-  .cta,
-  .cta-contact-form {
-    padding: 20px 60px;
-  }
-
   .cta {
     font-size: 1.5em;
   }
 
   /* Links hover */
-  .cta:hover,
-  .cta-contact-form:hover {
-    padding: 20px 60px;
-  }
-
   .cta:hover {
     font-size: 1.5em;
   }

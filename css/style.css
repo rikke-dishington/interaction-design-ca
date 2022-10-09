@@ -36,7 +36,6 @@ h2 {
 h3 {
   font-size: 1em;
   font-weight: normal;
-  letter-spacing: 0.2em;
 }
 
 h4 {
@@ -141,7 +140,6 @@ header label {
 
 .product-container {
   display: flex;
-  flex-wrap: row;
 }
 
 .product {
@@ -152,34 +150,20 @@ header label {
   border: 1px solid var(--dark-blue);
   border-radius: 1rem;
   min-width: 200px;
-  position: relative;
 }
 .product:hover {
   box-shadow: 10px 10px 10px var(--dark-blue);
 }
 
 .product i {
-  position: absolute;
   right: 10px;
   top: 10px;
   font-size: 30px;
+  text-align: end;
 }
 
 .product i.fa {
-  color: darkred;
-}
-
-.menu {
-  margin: 15px 0;
-}
-
-.menu a {
-  color: grey;
-  text-decoration: none;
-}
-
-.menu a.active {
-  color: darkred;
+  color: var(--dark-blue);
 }
 
 /* Contact form */

@@ -5,15 +5,17 @@ const favourites = getExistingFavs();
 const productContainer = document.querySelector(".product-container");
 
 if (favourites.length === 0) {
-  productContainer.innerHTML = "No favourites yet";
+  productContainer.innerHTML = "Your cart is currently empty!";
 }
 
 favourites.forEach((favourite) => {
   productContainer.innerHTML += `<div class="product">
-                                 <img src="${favourite.image}"></img>
+                                  <img src="${favourite.image}"></img>
+                                  <div>
                                     <h2>${favourite.name}</h2>
                                     <h3>${favourite.price}</h3>
-                                    <i class="fa fa-heart"</i>
+                                  </div>
+                                  <i class="fa fa-heart"</i>
                                 </div>`;
 });
 

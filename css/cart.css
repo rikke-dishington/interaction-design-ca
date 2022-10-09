@@ -1,0 +1,49 @@
+.jacket-list-section {
+  display: flex;
+}
+
+.jacket-list-section h2 {
+  margin-left: 20px;
+}
+
+.product-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.product {
+  display: flex;
+  flex-direction: row;
+  margin: 1rem;
+  padding: 1rem;
+  border: 1px solid var(--dark-blue);
+  border-radius: 1rem;
+}
+
+.product:hover {
+  box-shadow: none;
+}
+
+.product img {
+  max-width: 300px;
+}
+
+.product h2 {
+  margin-left: 0px;
+}
+
+.product i {
+  margin-left: 40px;
+  right: 10px;
+  top: 10px;
+  font-size: 30px;
+  flex-grow: 1;
+}
+
+.product i.fa {
+  color: var(--dark-blue);
+}
+
+#contactForm h2 {
+  margin-top: 20px;
+}

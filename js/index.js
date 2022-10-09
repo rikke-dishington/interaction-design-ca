@@ -23,13 +23,13 @@ products.forEach((product) => {
     cssClass = "fa";
   }
 
-  productContainer.innerHTML += `<a href="jacket-details.html?id=${product.id}" <div class="product">
+  // <a href="jacket-details.html?id=${product.id}"</a>
+  productContainer.innerHTML += `<div class="product">
                                     <img src="${product.image}"></img>
                                     <h2>${product.name}</h2>
                                     <h3>${product.price}</h3>
                                     <i class="${cssClass} fa-heart" data-image="${product.image}" data-id="${product.id}" data-name="${product.name}" data-price="${product.price}"></i>
-                                    </div>
-                                    </a>`;
+                                    </div>`;
 });
 
 const favButton = document.querySelectorAll(".product i");
