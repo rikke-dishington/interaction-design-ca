@@ -8,17 +8,14 @@ a {
   text-decoration: underline solid 4px #f2c75c;
 }
 
-.cta,
-.cta-contact-form {
+.cta {
   font-family: var(--font), Verdana, Geneva, Tahoma, sans-serif;
   background-color: #f2c75c;
   color: var(--dark-blue);
   padding: 10px 30px;
   border: none;
+  border-radius: 0.5rem;
   transition: all 0.3s ease;
-}
-
-.cta {
   font-size: 1em;
 }
 
@@ -28,16 +25,12 @@ a:hover {
   color: var(--dark-blue);
 }
 
-.cta:hover,
-.cta-contact-form:hover {
+.cta:hover {
   font-family: var(--font), Verdana, Geneva, Tahoma, sans-serif;
   background-color: var(--dark-blue);
   color: var(--light);
   padding: 10px 30px;
   text-decoration: none;
   border: none;
-}
-
-.cta:hover {
   font-size: 1em;
 }

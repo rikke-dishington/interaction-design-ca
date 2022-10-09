@@ -35,3 +35,11 @@ main > * {
   flex-direction: column;
   gap: 20px;
 }
+
+.contact-us-section * {
+  flex: 1;
+}
+
+.contact-us-section h2 {
+  margin-bottom: 20px;
+}
