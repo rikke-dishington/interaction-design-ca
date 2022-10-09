@@ -125,14 +125,12 @@ header label {
   color: var(--dark-blue);
 }
 
-/* Andre ting */
-
+/* Jacket list */
 .jacket-list-section {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  width: 100%;
-  max-width: 1000px;
+
   /*
   width: 100%;
   max-width: 1000px;
@@ -143,9 +141,7 @@ header label {
 
 .product-container {
   display: flex;
-  flex-direction: column;
-  width: 100%;
-  max-width: 1000px;
+  flex-wrap: row;
 }
 
 .product {

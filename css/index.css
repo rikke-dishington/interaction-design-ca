@@ -8,7 +8,7 @@ main > * {
   height: 30vh;
 }
 
-.home-about-us {
+.home-about-us-image {
   background: url("/images/kayaking.jpeg") center no-repeat;
   background-size: cover;
   height: 30vh;
