@@ -140,6 +140,7 @@ header label {
 
 .product-container {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .product {
@@ -151,6 +152,7 @@ header label {
   border-radius: 1rem;
   min-width: 200px;
 }
+
 .product:hover {
   box-shadow: 10px 10px 10px var(--dark-blue);
 }

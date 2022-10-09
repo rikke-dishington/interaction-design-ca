@@ -6,7 +6,7 @@ const productContainer = document.querySelector(".product-container");
 const favourites = getExistingFavs();
 
 products.forEach((product) => {
-  let cssClass = "far";
+  let cssClass = "fa-solid";
 
   // check through favs array
   // does the product id exist in the fav array
@@ -23,12 +23,11 @@ products.forEach((product) => {
     cssClass = "fa";
   }
 
-  // <a href="jacket-details.html?id=${product.id}"</a>
   productContainer.innerHTML += `<div class="product">
-                                    <img src="${product.image}"></img>
-                                    <h2>${product.name}</h2>
-                                    <h3>${product.price}</h3>
-                                    <i class="${cssClass} fa-heart" data-image="${product.image}" data-id="${product.id}" data-name="${product.name}" data-price="${product.price}"></i>
+                                    <a href="jacket-details.html?id=${product.id}"><img src="${product.image}"></img></a>
+                                    <a href="jacket-details.html?id=${product.id}"><h2>${product.name}</h2></a>
+                                    <a href="jacket-details.html?id=${product.id}"><h3>${product.price}</h3></a>
+                                    <i class="${cssClass} fa-shopping-bag" data-image="${product.image}" data-id="${product.id}" data-name="${product.name}" data-price="${product.price}"></i>
                                     </div>`;
 });
 
@@ -40,7 +39,7 @@ favButton.forEach((button) => {
 
 function handleClick() {
   this.classList.toggle("fa");
-  this.classList.toggle("far");
+  this.classList.toggle("fa-solid");
 
   const id = this.dataset.id;
   const name = this.dataset.name;

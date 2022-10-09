@@ -15,7 +15,7 @@ favourites.forEach((favourite) => {
                                     <h2>${favourite.name}</h2>
                                     <h3>${favourite.price}</h3>
                                   </div>
-                                  <i class="fa fa-heart"</i>
+                                  <i class="fa fa-trash"</i>
                                 </div>`;
 });
 
