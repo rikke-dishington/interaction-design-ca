@@ -20,6 +20,7 @@ In this project I have created a website for Rainy Days. Rainy Days is an online
 - CSS
 - Javascript
 - Wordpress
+- Netlify
 
 ## Links
 
