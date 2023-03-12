@@ -1,4 +1,4 @@
-# Cross-course Project - Rainy Days
+# Cross-Course Project - Rainy Days
 
 ![Rainydays](https://user-images.githubusercontent.com/85433495/224536285-41628e2a-0301-4294-b8ed-3bd2415e1075.png)
 
