@@ -43,6 +43,18 @@ All icons are collected from Font Awesome.
 
 ## Support
 
-Contributions, issues, and feature requests are welcome! Please open a pull request before you make any changes.
+Contributions, issues, and feature requests are welcome! Please fork the repo and submit a pull request before you make any changes.
+
+### Installing
+
+Clone the forked repo:
+
+```bash
+$ git clone https://github.com/YOUR-USERNAME/interaction-desing-ca
+```
+
+### Running
+The jackets and information about the jackets are pulled through a WordPress Rest API. The plugin WooCommerce is installed and are used to create and edit the products. The WordPress site is set as Headless. Please get in touch if you would like to add or make any changes regarding the products.
+
 
 Give a ⭐️ if you like this project!
