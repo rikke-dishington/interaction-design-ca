@@ -1,6 +1,6 @@
 # Cross-course Project - Rainy Days
 
-![image](https://user-images.githubusercontent.com/52622303/164316813-4b12d99f-aeb7-4069-85cf-e72b3a50ac99.png)
+![Rainydays](https://user-images.githubusercontent.com/85433495/224536285-41628e2a-0301-4294-b8ed-3bd2415e1075.png)
 
 ## Table of Content
 * [Description](#description)
